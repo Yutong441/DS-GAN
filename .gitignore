@@ -1,0 +1,13 @@
+data_raw/UKB/.ukbkey
+data/template/MNI_head.nii.gz
+data/template/MNI_mask.nii.gz
+reports/
+results/
+test/
+stats/
+*.pdf
+*.csv
+*.pth
+*.jpg
+*.pyc
+*.zip

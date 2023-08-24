@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-image
+ants
+nibabel
+fslpy
+nipype
+torchist
