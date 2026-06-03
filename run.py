@@ -1,6 +1,6 @@
 import os
-from SVDGAN.options.base_options import BaseOptions
-from SVDGAN.run_model import predict
+from DSGAN.options.base_options import BaseOptions
+from DSGAN.run_model import predict
 
 if __name__ == "__main__":
     opt = BaseOptions(isTrain=False).parse()
