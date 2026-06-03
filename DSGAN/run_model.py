@@ -78,7 +78,7 @@ def modify_opt(opt, pred_map="MD", in_chan=["T1", "FLAIR"]):
             opt.dimension = 2
 
     opt.save_dir = "results/" + pred_map + suffix
-    opt.in_chan = ["DL_yc/"+i for i in in_chan]
+    opt.in_chan = ["original/"+i for i in in_chan]
     opt.input_nc = len(opt.in_chan)
     return opt
 
